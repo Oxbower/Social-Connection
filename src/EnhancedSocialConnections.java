@@ -14,9 +14,6 @@ public abstract class EnhancedSocialConnections implements SocialConnections{
     public abstract void connectPeople(String firstPerson, String secondPerson, int level) throws PersonNotFoundException;
 
     @Override
-    /*
-     * Nothing for you to do here ;)
-     */
     public void connectPeople(String firstPerson, String secondPerson) throws PersonNotFoundException {
         connectPeople(firstPerson,secondPerson,10);
     }
